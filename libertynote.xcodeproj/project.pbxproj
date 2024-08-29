@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AA2B54F2C80D00400EA3AB3 /* libertynoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2B54E2C80D00400EA3AB3 /* libertynoteApp.swift */; };
+		6AA2B5512C80D00400EA3AB3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2B5502C80D00400EA3AB3 /* Persistence.swift */; };
+		6AA2B5542C80D00400EA3AB3 /* libertynote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2B5522C80D00400EA3AB3 /* libertynote.xcdatamodeld */; };
+		6AA2B5562C80D00400EA3AB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2B5552C80D00400EA3AB3 /* ContentView.swift */; };
+		6AA2B5582C80D00500EA3AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2B5572C80D00500EA3AB3 /* Assets.xcassets */; };
+		6AA2B55C2C80D00500EA3AB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2B55B2C80D00500EA3AB3 /* Preview Assets.xcassets */; };
+		6AA2B5662C80D00500EA3AB3 /* libertynoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2B5652C80D00500EA3AB3 /* libertynoteTests.swift */; };
+		6AA2B5702C80D00500EA3AB3 /* libertynoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2B56F2C80D00500EA3AB3 /* libertynoteUITests.swift */; };
+		6AA2B5722C80D00500EA3AB3 /* libertynoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2B5712C80D00500EA3AB3 /* libertynoteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AA2B5622C80D00500EA3AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA2B5432C80D00400EA3AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA2B54A2C80D00400EA3AB3;
+			remoteInfo = libertynote;
+		};
+		6AA2B56C2C80D00500EA3AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA2B5432C80D00400EA3AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA2B54A2C80D00400EA3AB3;
+			remoteInfo = libertynote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AA2B54B2C80D00400EA3AB3 /* libertynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libertynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA2B54E2C80D00400EA3AB3 /* libertynoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libertynoteApp.swift; sourceTree = "<group>"; };
+		6AA2B5502C80D00400EA3AB3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6AA2B5532C80D00400EA3AB3 /* libertynote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = libertynote.xcdatamodel; sourceTree = "<group>"; };
+		6AA2B5552C80D00400EA3AB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AA2B5572C80D00500EA3AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AA2B5592C80D00500EA3AB3 /* libertynote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = libertynote.entitlements; sourceTree = "<group>"; };
+		6AA2B55B2C80D00500EA3AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AA2B5612C80D00500EA3AB3 /* libertynoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libertynoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA2B5652C80D00500EA3AB3 /* libertynoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libertynoteTests.swift; sourceTree = "<group>"; };
+		6AA2B56B2C80D00500EA3AB3 /* libertynoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libertynoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA2B56F2C80D00500EA3AB3 /* libertynoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libertynoteUITests.swift; sourceTree = "<group>"; };
+		6AA2B5712C80D00500EA3AB3 /* libertynoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libertynoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AA2B5482C80D00400EA3AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA2B55E2C80D00500EA3AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA2B5682C80D00500EA3AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AA2B5422C80D00400EA3AB3 = {
+			isa = PBXGroup;
+			children = (
+				6AA2B54D2C80D00400EA3AB3 /* libertynote */,
+				6AA2B5642C80D00500EA3AB3 /* libertynoteTests */,
+				6AA2B56E2C80D00500EA3AB3 /* libertynoteUITests */,
+				6AA2B54C2C80D00400EA3AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AA2B54C2C80D00400EA3AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AA2B54B2C80D00400EA3AB3 /* libertynote.app */,
+				6AA2B5612C80D00500EA3AB3 /* libertynoteTests.xctest */,
+				6AA2B56B2C80D00500EA3AB3 /* libertynoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AA2B54D2C80D00400EA3AB3 /* libertynote */ = {
+			isa = PBXGroup;
+			children = (
+				6AA2B54E2C80D00400EA3AB3 /* libertynoteApp.swift */,
+				6AA2B5502C80D00400EA3AB3 /* Persistence.swift */,
+				6AA2B5552C80D00400EA3AB3 /* ContentView.swift */,
+				6AA2B5572C80D00500EA3AB3 /* Assets.xcassets */,
+				6AA2B5592C80D00500EA3AB3 /* libertynote.entitlements */,
+				6AA2B5522C80D00400EA3AB3 /* libertynote.xcdatamodeld */,
+				6AA2B55A2C80D00500EA3AB3 /* Preview Content */,
+			);
+			path = libertynote;
+			sourceTree = "<group>";
+		};
+		6AA2B55A2C80D00500EA3AB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AA2B55B2C80D00500EA3AB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AA2B5642C80D00500EA3AB3 /* libertynoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AA2B5652C80D00500EA3AB3 /* libertynoteTests.swift */,
+			);
+			path = libertynoteTests;
+			sourceTree = "<group>";
+		};
+		6AA2B56E2C80D00500EA3AB3 /* libertynoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AA2B56F2C80D00500EA3AB3 /* libertynoteUITests.swift */,
+				6AA2B5712C80D00500EA3AB3 /* libertynoteUITestsLaunchTests.swift */,
+			);
+			path = libertynoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AA2B54A2C80D00400EA3AB3 /* libertynote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA2B5752C80D00500EA3AB3 /* Build configuration list for PBXNativeTarget "libertynote" */;
+			buildPhases = (
+				6AA2B5472C80D00400EA3AB3 /* Sources */,
+				6AA2B5482C80D00400EA3AB3 /* Frameworks */,
+				6AA2B5492C80D00400EA3AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libertynote;
+			productName = libertynote;
+			productReference = 6AA2B54B2C80D00400EA3AB3 /* libertynote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AA2B5602C80D00500EA3AB3 /* libertynoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA2B5782C80D00500EA3AB3 /* Build configuration list for PBXNativeTarget "libertynoteTests" */;
+			buildPhases = (
+				6AA2B55D2C80D00500EA3AB3 /* Sources */,
+				6AA2B55E2C80D00500EA3AB3 /* Frameworks */,
+				6AA2B55F2C80D00500EA3AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA2B5632C80D00500EA3AB3 /* PBXTargetDependency */,
+			);
+			name = libertynoteTests;
+			productName = libertynoteTests;
+			productReference = 6AA2B5612C80D00500EA3AB3 /* libertynoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AA2B56A2C80D00500EA3AB3 /* libertynoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA2B57B2C80D00500EA3AB3 /* Build configuration list for PBXNativeTarget "libertynoteUITests" */;
+			buildPhases = (
+				6AA2B5672C80D00500EA3AB3 /* Sources */,
+				6AA2B5682C80D00500EA3AB3 /* Frameworks */,
+				6AA2B5692C80D00500EA3AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA2B56D2C80D00500EA3AB3 /* PBXTargetDependency */,
+			);
+			name = libertynoteUITests;
+			productName = libertynoteUITests;
+			productReference = 6AA2B56B2C80D00500EA3AB3 /* libertynoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AA2B5432C80D00400EA3AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6AA2B54A2C80D00400EA3AB3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6AA2B5602C80D00500EA3AB3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6AA2B54A2C80D00400EA3AB3;
+					};
+					6AA2B56A2C80D00500EA3AB3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6AA2B54A2C80D00400EA3AB3;
+					};
+				};
+			};
+			buildConfigurationList = 6AA2B5462C80D00400EA3AB3 /* Build configuration list for PBXProject "libertynote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AA2B5422C80D00400EA3AB3;
+			productRefGroup = 6AA2B54C2C80D00400EA3AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AA2B54A2C80D00400EA3AB3 /* libertynote */,
+				6AA2B5602C80D00500EA3AB3 /* libertynoteTests */,
+				6AA2B56A2C80D00500EA3AB3 /* libertynoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AA2B5492C80D00400EA3AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA2B55C2C80D00500EA3AB3 /* Preview Assets.xcassets in Resources */,
+				6AA2B5582C80D00500EA3AB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA2B55F2C80D00500EA3AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA2B5692C80D00500EA3AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AA2B5472C80D00400EA3AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA2B5542C80D00400EA3AB3 /* libertynote.xcdatamodeld in Sources */,
+				6AA2B54F2C80D00400EA3AB3 /* libertynoteApp.swift in Sources */,
+				6AA2B5562C80D00400EA3AB3 /* ContentView.swift in Sources */,
+				6AA2B5512C80D00400EA3AB3 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA2B55D2C80D00500EA3AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA2B5662C80D00500EA3AB3 /* libertynoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA2B5672C80D00500EA3AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA2B5722C80D00500EA3AB3 /* libertynoteUITestsLaunchTests.swift in Sources */,
+				6AA2B5702C80D00500EA3AB3 /* libertynoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AA2B5632C80D00500EA3AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AA2B54A2C80D00400EA3AB3 /* libertynote */;
+			targetProxy = 6AA2B5622C80D00500EA3AB3 /* PBXContainerItemProxy */;
+		};
+		6AA2B56D2C80D00500EA3AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AA2B54A2C80D00400EA3AB3 /* libertynote */;
+			targetProxy = 6AA2B56C2C80D00500EA3AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AA2B5732C80D00500EA3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AA2B5742C80D00500EA3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6AA2B5762C80D00500EA3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = libertynote/libertynote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"libertynote/Preview Content\"";
+				DEVELOPMENT_TEAM = 5N766N6H2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.libertytech.libertynote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AA2B5772C80D00500EA3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = libertynote/libertynote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"libertynote/Preview Content\"";
+				DEVELOPMENT_TEAM = 5N766N6H2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.libertytech.libertynote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AA2B5792C80D00500EA3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N766N6H2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.libertytech.libertynoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libertynote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/libertynote";
+			};
+			name = Debug;
+		};
+		6AA2B57A2C80D00500EA3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N766N6H2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.libertytech.libertynoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libertynote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/libertynote";
+			};
+			name = Release;
+		};
+		6AA2B57C2C80D00500EA3AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N766N6H2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.libertytech.libertynoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = libertynote;
+			};
+			name = Debug;
+		};
+		6AA2B57D2C80D00500EA3AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5N766N6H2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.libertytech.libertynoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = libertynote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AA2B5462C80D00400EA3AB3 /* Build configuration list for PBXProject "libertynote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA2B5732C80D00500EA3AB3 /* Debug */,
+				6AA2B5742C80D00500EA3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA2B5752C80D00500EA3AB3 /* Build configuration list for PBXNativeTarget "libertynote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA2B5762C80D00500EA3AB3 /* Debug */,
+				6AA2B5772C80D00500EA3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA2B5782C80D00500EA3AB3 /* Build configuration list for PBXNativeTarget "libertynoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA2B5792C80D00500EA3AB3 /* Debug */,
+				6AA2B57A2C80D00500EA3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA2B57B2C80D00500EA3AB3 /* Build configuration list for PBXNativeTarget "libertynoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA2B57C2C80D00500EA3AB3 /* Debug */,
+				6AA2B57D2C80D00500EA3AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6AA2B5522C80D00400EA3AB3 /* libertynote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6AA2B5532C80D00400EA3AB3 /* libertynote.xcdatamodel */,
+			);
+			currentVersion = 6AA2B5532C80D00400EA3AB3 /* libertynote.xcdatamodel */;
+			path = libertynote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6AA2B5432C80D00400EA3AB3 /* Project object */;
+}
